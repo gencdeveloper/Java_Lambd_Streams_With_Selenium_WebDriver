@@ -10,7 +10,7 @@ import com.udemy.java.polymorphism.AreaCalculator;
  *
  * */
 
-public class TestMain {
+public class CompileTimeMain {
     public static void main(String[] args) {
         AreaCalculator a = new AreaCalculator();
         /**Compile-time polymorphism: Compile Time polymorphism is implemented through Method overloading and Operator overloading.
