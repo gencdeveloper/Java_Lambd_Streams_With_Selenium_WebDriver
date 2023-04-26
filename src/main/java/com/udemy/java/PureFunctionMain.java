@@ -1,12 +1,15 @@
 package com.udemy.java;
 
 import com.udemy.java.lambda.GreetingService;
+import com.udemy.java.lambda.HighOrderFunction;
 import com.udemy.java.lambda.PureFunctionInterface;
+import com.udemy.java.polymorphism.Dog;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PureFunctionMain {
+
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
@@ -18,5 +21,8 @@ public class PureFunctionMain {
         };
         System.out.println(p1.greet("Emre"+" "));
     }
+
+
+
 
 }
